@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Hi! Welcome to my website. This is a digital archive for some of my endevors. 
