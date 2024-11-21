@@ -76,6 +76,7 @@ Nuria Alina Chandra, Elisabeth B Powelson, Brittany N Rosenbloom, Jennifer A Rab
 NOD-like receptors (NLRs) are a family of cytosolic sensors involved in the innate immune response, the body’s first line of defense against pathogens. Genome-wide association studies have identified NLR gene mutation as a risk factor for a multitude of diseases, however, the biological functions of many NLR proteins remain unknown. The goal of my project was to develop an over-expression system to mimic ligand activation and to ultimately explore the function of 4 poorly characterized NLRs: NLRX1, NLRP7, NLRP9, and NLRP12. With another high school intern, I used a multi-step cloning process to create a drug inducible lentiviral expression system for the NLRs, using restriction-enzyme based ligation and gateway cloning. We performed a transient transfection of a human cell line with our lentiviral vector and found our engineered constructs were able to stably express the NLRs (without excessive protein degradation), and the expression was successfully drug inducible.
 
 Read a blog post about this work here: [link](https://baliga.systemsbiology.net/see-interns/hs2018/expression-constructs-for-nlrs/)
+
 Nuria Alina Chandra, B. Ozhan, Leah Rommereim, Naeha Subramanian. Engineering an NLR Expression System [Poster]. Institute for Systems Biology summer intern symposium. September 2018. Seattle, WA.
 
 <!-- You can find the source code for Minima at GitHub:
