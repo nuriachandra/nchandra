@@ -46,7 +46,8 @@ Accurately predicting the cellular consequences of genetic variants is necessary
 
 Preliminary results were presented at MLCB2023:
 
-Nuria Alina Chandra, Alexander Sasse, Sara Mostafavi. Base-pair resolution learning improves regional chromatin accessibility prediction in immune cells. [Poster]. Machine Learning in Computational Biology (MLCB2023). Nov. 30, 2023.
+Nuria Alina Chandra, Alexander Sasse, Sara Mostafavi. Base-pair resolution learning improves regional chromatin accessibility prediction in immune cells. [Poster]. Machine Learning in Computational Biology (MLCB2023). Nov. 30, 2023. Accepted extended abstract available [here]({{ site.baseurl }}/assets/papers/MLCB_extended_abstract.pdf).
+
 
 Preprint coming soon.
 
