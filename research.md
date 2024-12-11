@@ -19,7 +19,7 @@ Deepfakes pose a major threat to democracy. Existing academic datasets and SOTA 
 Ongoing work. Pre-print coming in early 2025.
 
 
-#### Using contrastic audio models for efficient audio deepfake detection
+#### Using contrastive audio models for efficient audio deepfake detection
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="{{ site.baseurl }}/assets/research_images/trump_clap_embedding.png" alt="TSNE plot of LION-CLAP embeddings of Donald Trump speech audio. AI-generated audio is colored orange." width="300"/>
