@@ -16,7 +16,7 @@ and [molecular immunology](#molecular-immunology).
 #### Benchmarking & creation of a real-world deepfake dataset
 Deepfakes pose a major threat to democracy. Existing academic datasets and SOTA detection methods claim generalizability to real-world deepfakes. Here we show that existing models perform poorly on the challenges of modern deepfakes currently being circulated on social media. We present a new in-the-wild dataset of deepfakes collected in 2024 from social media. Our dataset includes images, videos, and audio AI-generated content. We then evaluated modality-specific SOTA models on our in-the-wild dataset. I lead this project, from dataset labeling decisions to model analysis. I also implement, train, and benchmark SOTA audio models.
 
-Ongoing work. Pre-print coming in early 2025.
+Ongoing work. Pre-print coming in early 2025. You can see a draft of this work [here]({{ site.baseurl }}/assets/papers/DFE-24_v1.5.pdf).
 
 
 #### Using contrastive audio models for efficient audio deepfake detection
@@ -36,20 +36,21 @@ Ongoing work. Pre-print coming in early 2025
 #### LLM semantic analysis for audio deepfake detection 
 We take a novel approach to audio deepfake detection based on semantics. We find that deepfakes can be accurately detected using semantic analysis of audio transcripts with >80% accuracy on real-world deepfake data, performing on par or better than academic audio deepfake detection models and commercially available audio deepfake detection models. This is the first known use of semantic analysis for deepfake detection. I led the technical implementation of this project. I compared the performance of different LLMs on the task of semantic analysis and trained an optimal prompt using DSPy, which increased accuracy by ~20% as compared to manual prompt engineering. To reduce the cost of automated prompt optimization, I ran experiments which showed that evaluating prompts on sub-sampled test data can provide accurate comparisons between different prompts without needing to evaluate full test sets. This semantic analysis approach was productionized and used by clients in the TrueMedia.org application. 
 
-Pre-print coming in January 2025. 
-
 ## Machine Learning for Computational Biology
 *Research conducted with Dr. Sara Mostafavi at the University of Washington Allen School of Computer Science. This research was supported by the Washington State Research Foundation, the Goldwater Foundation, and the Mary Gates Endowment for Students.*
 
 #### Decoding gene regulation of immune cells with deep learning
 Accurately predicting the cellular consequences of genetic variants is necessary to understand genetic disease susceptibility and develop personalized treatment systems. I developed bpAI-TAC, a deep learning model to find DNA sequence patterns which regulate chromosome accessibility across a large collection of different immune cell types. Using propagation-based feature attribution methods, I identified the biological sequence patterns the model learns, allowing me to evaluate the model’s performance by comparing learned patterns to known regulatory protein binding sites, and elucidate novel biological insights about gene regulation in immune cells. 
 
-Preliminary results were presented at MLCB2023:
+Preprint:
+Nuria Alina Chandra, Yan Hu, Jason D. Buenrostro, Sara Mostafavi, Alexander Sasse. Refining the cis-regulatory
+grammar learned by sequence-to-activity models by increasing model resolution. [bioRxiv 2025.01.24.634804](https://doi.org/10.1101/2025.01.24.634804). Jan. 24, 2025.
+
+Preliminary results were also presented at MLCB2023:
 
 Nuria Alina Chandra, Alexander Sasse, Sara Mostafavi. Base-pair resolution learning improves regional chromatin accessibility prediction in immune cells. [Poster]. Machine Learning in Computational Biology (MLCB2023). Nov. 30, 2023. Accepted extended abstract available [here]({{ site.baseurl }}/assets/papers/MLCB_extended_abstract.pdf).
 
 
-Preprint coming soon.
 
 ## Geometric Combinatorics
 *Research conducted with Dr. Rekha R. Thomas in the University of Washington department of mathematics.*
