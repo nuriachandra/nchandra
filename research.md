@@ -16,7 +16,7 @@ and [molecular immunology](#molecular-immunology).
 #### Benchmarking & creation of a real-world deepfake dataset
 Deepfakes pose a major threat to democracy. Existing academic datasets and SOTA detection methods claim generalizability to real-world deepfakes. Here we show that existing models perform poorly on the challenges of modern deepfakes currently being circulated on social media. We present a new in-the-wild dataset of deepfakes collected in 2024 from social media. Our dataset includes images, videos, and audio AI-generated content. We then evaluated modality-specific SOTA models on our in-the-wild dataset. I lead this project, from dataset labeling decisions to model analysis. I also implement, train, and benchmark SOTA audio models.
 
-Ongoing work. Pre-print coming in early 2025. You can see a draft of this work [here]({{ site.baseurl }}/assets/papers/DFE-24_v1.5.pdf).
+[Pre-print](https://arxiv.org/abs/2503.02857).
 
 
 #### Using contrastive audio models for efficient audio deepfake detection
